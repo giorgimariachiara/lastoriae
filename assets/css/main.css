@@ -18,9 +18,9 @@
 
 /* Colors */
 :root {
-  --color-default: #222222;
-  --color-primary: #008374;
-  --color-secondary: #f85a40;
+  --color-default: #1e3767;
+  --color-primary: rgba(30, 55, 103, 0.890);
+  --color-secondary: #cbc400;
 }
 
 /* Smooth scroll behavior */
@@ -42,7 +42,7 @@ a {
 }
 
 a:hover {
-  color: #00b6a1;
+  color: #961e80;
   text-decoration: none;
 }
 
@@ -86,7 +86,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: var(--color-primary);
+  background: #961e80;
   left: 0;
   right: 0;
   bottom: 0;
@@ -179,7 +179,7 @@ section {
 }
 
 .scroll-top:hover {
-  background: rgba(248, 90, 64, 0.8);
+  background: rgba(150, 30, 128, 0.8);
   color: #fff;
 }
 
@@ -248,7 +248,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .topbar {
-  background: #00796b;
+  background: #cbc400;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -300,8 +300,8 @@ section {
 .header {
   transition: all 0.5s;
   z-index: 997;
-  height: 90px;
-  background-color: var(--color-primary);
+  height: 80px;
+  background-color: #961e80;
 }
 
 .header.sticked {
@@ -314,7 +314,7 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
+  max-height: 200px;
   margin-right: 6px;
 }
 
@@ -328,7 +328,7 @@ section {
 }
 
 .header .logo h1 span {
-  color: #f96f59;
+  color: #961e80;
 }
 
 .sticked-header-offset {
@@ -393,7 +393,7 @@ section {
     height: 2px;
     bottom: -6px;
     left: 0;
-    background-color: var(--color-secondary);
+    background-color: #cbc400;
     visibility: hidden;
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
@@ -438,7 +438,7 @@ section {
     font-size: 15px;
     text-transform: none;
     font-weight: 600;
-    color: #006a5d;
+    color: #999930;
   }
 
   .navbar .dropdown ul a i {
@@ -448,7 +448,7 @@ section {
   .navbar .dropdown ul a:hover,
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover>a {
-    color: var(--color-secondary);
+    color: #cbc400;
   }
 
   .navbar .dropdown:hover>ul {
@@ -509,7 +509,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(0, 131, 116, 0.9);
+    background: rgba(30, 55, 103, 0.7);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -555,7 +555,7 @@ section {
   .navbar .getstarted:hover,
   .navbar .getstarted:focus:hover {
     color: #fff;
-    background: rgba(0, 131, 116, 0.8);
+    background:  rgba(30, 55, 103, 0.7);
   }
 
   .navbar .dropdown ul,
@@ -565,8 +565,8 @@ section {
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    background-color: #007466;
-    border: 1px solid #006459;
+    background-color: #cbc400;
+    border: 1px solid #cbc400;
   }
 
   .navbar .dropdown>.dropdown-active,
@@ -608,7 +608,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(0, 106, 93, 0.8);
+    background: rgba(30, 55, 103, 0.7);
     z-index: 9996;
   }
 }
@@ -670,7 +670,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(var(--color-primary) 50%, rgba(0, 131, 116, 0.4) 52%);
+  background: radial-gradient(var(--color-primary) 50%,rgba(30, 55, 103, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -696,7 +696,7 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(0, 131, 116, 0.7);
+  border: 5px solid rgba(30, 55, 103, 0.7);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
@@ -843,6 +843,7 @@ section {
 .call-to-action .container {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") center center;
   background-size: cover;
+  margin-top: 100px;
   padding: 100px 60px;
   border-radius: 15px;
   overflow: hidden;
@@ -864,7 +865,7 @@ section {
   width: 94px;
   height: 94px;
   margin-bottom: 20px;
-  background: radial-gradient(var(--color-primary) 50%, rgba(0, 131, 116, 0.4) 52%);
+  background: radial-gradient(var(--color-primary) 50%, rgba(30, 55, 103, 0.4) 52%);
   border-radius: 50%;
   display: inline-block;
   position: relative;
@@ -1030,7 +1031,7 @@ section {
 }
 
 .services .service-item:hover .icon:before {
-  background: #00b6a1;
+  background: #1e3767;
 }
 
 .services .service-item:hover h3 {
@@ -1078,13 +1079,13 @@ section {
 }
 
 .testimonials .testimonial-item .stars i {
-  color: #ffc107;
+  color: #961e80;
   margin: 0 1px;
 }
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #009d8b;
+  color: #1e3767;
   font-size: 26px;
   line-height: 0;
 }
@@ -1322,12 +1323,12 @@ section {
   padding: 8px 40px;
   background: var(--color-primary);
   color: #fff;
-  border-radius: 50px;
+  border-radius: 50px; 
   transition: 0.3s;
 }
 
 .portfolio-details .portfolio-info .btn-visit:hover {
-  background: #009d8b;
+  background: #1e3767;
 }
 
 .portfolio-details .portfolio-description h2 {
@@ -1371,7 +1372,7 @@ section {
 
 .portfolio-details .portfolio-description .testimonial-item .quote-icon-left,
 .portfolio-details .portfolio-description .testimonial-item .quote-icon-right {
-  color: #009d8b;
+  color: #1e3767;
   font-size: 26px;
   line-height: 0;
 }
@@ -1564,7 +1565,7 @@ section {
 }
 
 .pricing ul i {
-  color: #059652;
+  color: #1e3767;
   font-size: 24px;
   padding-right: 3px;
 }
@@ -1754,7 +1755,7 @@ section {
 
 .contact .info-item {
   width: 100%;
-  background-color: #009282;
+  background-color: #1e3767;
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
@@ -1814,7 +1815,7 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #df1529;
+  background: #961e80;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1827,11 +1828,11 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #059652;
+  background: #1e3767;
   text-align: center;
   padding: 15px;
   font-weight: 600;
-}
+} 
 
 .contact .php-email-form .loading {
   display: none;
@@ -1847,7 +1848,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #059652;
+  border: 3px solid #1e3767;
   border-top-color: #fff;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1886,7 +1887,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgba(0, 131, 116, 0.8);
+  background: rgba(30, 55, 103, 0.8);
 }
 
 @-webkit-keyframes animate-loading {
@@ -2002,13 +2003,13 @@ section {
     height: calc(50% + 20px);
     background-color: #fff;
   }
-}
+} 
 
 .hero .icon-box {
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: #008d7d;
+  background: #1e3767;
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -2040,7 +2041,7 @@ section {
 }
 
 .hero .icon-box:hover {
-  background: #009786;
+  background: #1e3767;
 }
 
 .hero .icon-box:hover .title a,
@@ -2391,7 +2392,7 @@ section {
 }
 
 .blog .sidebar .search-form form button:hover {
-  background: rgba(0, 131, 116, 0.8);
+  background: rgba(30, 55, 103, 0.8);
 }
 
 .blog .sidebar .categories ul {
@@ -2569,7 +2570,7 @@ section {
 
 .blog .comments .reply-form input:focus {
   box-shadow: none;
-  border-color: rgba(0, 131, 116, 0.8);
+  border-color: rgba(30, 55, 103, 0.8);
 }
 
 .blog .comments .reply-form textarea {
@@ -2580,7 +2581,7 @@ section {
 
 .blog .comments .reply-form textarea:focus {
   box-shadow: none;
-  border-color: rgba(0, 131, 116, 0.8);
+  border-color:  rgba(30, 55, 103, 0.8);
 }
 
 .blog .comments .reply-form .form-group {
@@ -2595,7 +2596,7 @@ section {
 }
 
 .blog .comments .reply-form .btn-primary:hover {
-  background-color: rgba(248, 90, 64, 0.8);
+  background-color: rgba(150, 30, 128, 0.8);
 }
 
 /*--------------------------------------------------------------
@@ -2712,3 +2713,7 @@ section {
 .footer .credits a {
   color: #fff;
 }
+
+
+
+
