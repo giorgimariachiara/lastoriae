@@ -70,6 +70,8 @@ section {
 .section-header {
   text-align: center;
   padding-bottom: 60px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 .section-header h2 {
@@ -847,7 +849,10 @@ section {
   padding: 100px 60px;
   border-radius: 15px;
   overflow: hidden;
+ 
 }
+
+ 
 
 .call-to-action h3 {
   color: #fff;
@@ -2717,3 +2722,9 @@ section {
 
 
 
+
+ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
