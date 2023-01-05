@@ -97,7 +97,7 @@ section {
 
 .section-header p {
   margin-bottom: 0;
-  color: #6f6f6f;
+  color: var(--color-primary);
 }
 
 /*--------------------------------------------------------------
@@ -1710,7 +1710,7 @@ section {
 
 .recent-posts .post-category {
   font-size: 16px;
-  color: #6f6f6f;
+  color:var(--color-primary);
   margin-bottom: 10px;
 }
 
@@ -2727,4 +2727,18 @@ ul {
   list-style-type: none; /* Remove bullets */
   padding: 0; /* Remove padding */
   margin: 0; /* Remove margins */
+}
+
+.uscite {
+margin-top: 70px;
+}
+
+.imguscite {
+  margin-top: 100px;
+
+}
+
+.p{
+  font-style: normal;
+color: var(--color-primary);
 }
