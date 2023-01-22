@@ -2742,3 +2742,10 @@ margin-top: 70px;
   font-style: normal;
 color: var(--color-primary);
 }
+
+.paypal {
+margin-top: 50px;
+margin-left: 200px;
+  width: auto;
+  height: auto;
+}
